@@ -1,371 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <!--
-  Google HTML5 slide template
+    Modified from impress.js demo by Chaplin Wang, original author @bartaz
+    Welcome to the light side of the source, young padawan.
 
-  Authors: Luke Mahé (code)
-           Marcin Wichary (code and design)
-           
-           Dominic Mazzoni (browser compatibility)
-           Charles Chen (ChromeVox support)
+    One step closer to learn something interesting you are...
 
-  URL: http://code.google.com/p/html5slides/
+                               ____                  
+                            _.' :  `._               
+                        .-.'`.  ;   .'`.-.           
+               __      / : ___\ ;  /___ ; \      __  
+             ,'_ ""=-.:__;".-.";: :".-.":__;.-="" _`,
+             :' `.t""=-.. '<@.`;_  ',@:` ..-=""j.' `;
+                  `:-.._J '-.-'L__ `-.-' L_..-;'     
+                    "-.__ ;  .-"  "-.  : __.-"       
+                        L ' /.======.\ ' J           
+                         "-.   "__"   .-"            
+                        __.l"-:_JL_;-";.__           
+                     .-j/'.;  ;""""  / .'\"-.        
+                   .' /:`. "-.:     .-" .';  `.      
+                .-"  / ;  "-. "-..-" .-"  :    "-.   
+             .+"-.  : :      "-.__.-"      ;-._   \  
+             ; \  `.; ;                    : : "+. ; 
+             :  ;   ; ;                    : ;  : \: 
+             ;  :   ; :                    ;:   ;  : 
+            : \  ;  :  ;                  : ;  /  :: 
+            ;  ; :   ; :                  ;   :   ;: 
+            :  :  ;  :  ;                : :  ;  : ; 
+            ;\    :   ; :                ; ;     ; ; 
+            : `."-;   :  ;              :  ;    /  ; 
+             ;    -:   ; :              ;  : .-"   : 
+             :\     \  :  ;            : \.-"      : 
+              ;`.    \  ; :            ;.'_..-=  / ; 
+              :  "-.  "-:  ;          :/."      .'  :
+               \         \ :          ;/  __        :
+                \       .-`.\        /t-""  ":-+.   :
+                 `.  .-"    `l    __/ /`. :  ; ; \  ;
+                   \   .-" .-"-.-"  .' .'j \  /   ;/ 
+                    \ / .-"   /.     .'.' ;_:'    ;  
+                     :-""-.`./-.'     /    `.___.'   
+                           \ `t  ._  /               
+                            "-.t-._:'                
+
 -->
 
-<html>
-  <head>
-    <title>Presentation</title>
-
-    <meta charset='utf-8'>
-    <script
-      src='http://html5slides.googlecode.com/svn/trunk/slides.js'></script>
-  </head>
-  
-  <style>
-    /* Your individual styles here, or just use inline styles if that’s
-       what you want. */
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Chaplin Wang html 5 demo powered by impress.js</title>
     
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
     
-  </style>
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
 
-  <body style='display: none'>
 
-    <section class='slides layout-regular template-default'>
-      
-      <!-- Your slides (<article>s) go here. Delete or comment out the
-           slides below. -->
-        
-        
-      
-      <article class='biglogo'>
-      </article>
+<body class="impress-not-supported">
 
-      <article>
-        <h1>
-          Title Goes Here Up
-          <br>
-          To Two Lines
-        </h1>
-        <p>
-          Sergey Brin
-          <br>
-          May 10, 2011
+
+<div id="impress">
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="try">Tell me about</span>
+        <h1>Your Self<sup>*</sup></h1>
+        <span class="footnote"><sup>*</sup> no jokes during interview</span>
+    </div>
+
+
+    <div id="UNSW" class="step" data-x="850" data-y="5000" data-rotate="90" data-scale="5">
+        <p>Jan 2010 - Jan 2013 <br/>
+            <b class="positioning"> University of New South Wales </b><br/>
+            Computer Science Degree<br/>
         </p>
-      </article>
-      
-      <article>
-        <p>
-          This is a slide with just text. This is a slide with just text.
-          This is a slide with just text. This is a slide with just text.
-          This is a slide with just text. This is a slide with just text.
-        </p>
-        <p>
-          There is more text just underneath.
-        </p>
-      </article>
+    </div>
 
-      <article>
-        <h3>
-          Simple slide with header and text
-        </h3>
-        <p>
-          This is a slide with just text. This is a slide with just text.
-          This is a slide with just text. This is a slide with just text.
-          This is a slide with just text. This is a slide with just text.
-        </p>
-        <p>
-          There is more text just underneath with a <code>code sample: 5px</code>.
-        </p>
-      </article>
+    <div id="uni" class="step" data-x="850" data-y="9000" data-rotate="0" data-scale="5">
+        Stuffs I did in University:<br/><br/>
 
-      <article class='smaller'>
-        <h3>
-          Simple slide with header and text (small font)
-        </h3>
-        <p>
-          This is a slide with just text. This is a slide with just text.
-          This is a slide with just text. This is a slide with just text.
-          This is a slide with just text. This is a slide with just text.
-        </p>
-        <p>
-          There is more text just underneath with a <code>code sample: 5px</code>.
-        </p>
-      </article>
+        <strong> Artificial Intelligence, Robotics, Computer Vision</strong><br/><br/>
 
-      <article>
-        <h3>
-          Slide with bullet points and a longer title, just because we
-          can make it longer
-        </h3>
-        <ul>
-          <li>
-            Use this template to create your presentation
-          </li>
-          <li>
-            Use the provided color palette, box and arrow graphics, and
-            chart styles
-          </li>
-          <li>
-            Instructions are provided to assist you in using this
-            presentation template effectively
-          </li>
-          <li>
-            At all times strive to maintain Google's corporate look and feel
-          </li>
-        </ul>
-      </article>
+        <strong>Operating Systems, HCI, Philosophy, <br/>Surfing, Party, Tr... hmm that's enough</strong><br/>
+    </div>
 
-      <article>
-        <h3>
-          Slide with bullet points that builds
-        </h3>
-        <ul class="build">
-          <li>
-            This is an example of a list
-          </li>
-          <li>
-            The list items fade in
-          </li>
-          <li>
-            Last one!
-          </li>
-        </ul>
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>Jan 2013 - May 2014 <b>Clarity</b> <span class="thoughts">Graduate Java Developer</span></p>
+    </div>
 
-        <div class="build">
-          <p>Any element with child nodes can build.</p>
-          <p>It doesn't have to be a list.</p>
-        </div>
-      </article>
+    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>Since June 2014 <b>Xpro</b> Contract Java Developer</span></p>
+    </div>
 
-      <article class='smaller'>
-        <h3>
-          Slide with bullet points (small font)
-        </h3>
-        <ul>
-          <li>
-            Use this template to create your presentation
-          <li>
-            Use the provided color palette, box and arrow graphics, and
-            chart styles
-          <li>
-            Instructions are provided to assist you in using this
-            presentation template effectively
-          <li>
-            At all times strive to maintain Google's corporate look and feel
-        </ul>
-      </article>
 
-      <article>
-        <h3>
-          Slide with a table
-        </h3>
-        
-        <table>
-          <tr>
-            <th>
-              Name
-            <th>
-              Occupation
-          <tr>
-            <td>
-              Luke Mahé
-            <td>
-              V.P. of Keepin’ It Real
-          <tr>
-            <td>
-              Marcin Wichary
-            <td>
-              The Michael Bay of Doodles
-        </table>
-      </article>
-      
-      <article class='smaller'>
-        <h3>
-          Slide with a table (smaller text)
-        </h3>
-        
-        <table>
-          <tr>
-            <th>
-              Name
-            <th>
-              Occupation
-          <tr>
-            <td>
-              Luke Mahé
-            <td>
-              V.P. of Keepin’ It Real
-          <tr>
-            <td>
-              Marcin Wichary
-            <td>
-              The Michael Bay of Doodles
-        </table>
-      </article>
-      
-      <article>
-        <h3>
-          Styles
-        </h3>
-        <ul>
-          <li>
-            <span class='red'>class="red"</span>
-          <li>
-            <span class='blue'>class="blue"</span>
-          <li>
-            <span class='green'>class="green"</span>
-          <li>
-            <span class='yellow'>class="yellow"</span>
-          <li>
-            <span class='black'>class="black"</span>
-          <li>
-            <span class='white'>class="white"</span>
-          <li>
-            <b>bold</b> and <i>italic</i>
-        </ul>
-      </article>
-      
-      <article>
-        <h2>
-          Segue slide
-        </h2>
-      </article>
+    <div id="webdev" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <p>As a classic <b> Java web developer</b> I am comfortable with <br/><b class="techs"> Java/J2EE, Hibernate, SQL(Oracle,MYSQl), SVN, GIT, JavaScript, Jquery, HTML, Maven, GWT/GXT, Tapestry, Phonegap/Cordova, JIRA&Bamboo, Jboss, Linux, Shell script, C/C++ ... </b></p>
+    </div>
 
-      <article>
-        <h3>
-          Slide with an image
-        </h3>
-        <p>
-          <img style='height: 500px' src='images/example-graph.png'>
-        </p>
-        <div class='source'>
-          Source: Sergey Brin
-        </div>
-      </article>
+    <div id="source" class="step" data-x="6300" data-y="2400" data-rotate="20" data-scale="4">
+        <p>I am also very eager to learn new stuffs and trying to be a better programmer<br/><br/></p>
+        <p>Thats's why I am here</p>
+    </div>
 
-      <article>
-        <h3>
-          Slide with an image (centered)
-        </h3>
-        <p>
-          <img class='centered' style='height: 500px' src='images/example-graph.png'>
-        </p>
-        <div class='source'>
-          Source: Larry Page
-        </div>
-      </article>
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <p>I am also very eager to learn new stuffs and trying to be a better programmer</p>
+    </div>
 
-      <article class='fill'>
-        <h3>
-          Image filling the slide (with optional header)
-        </h3>
-        <p>
-          <img src='images/example-cat.jpg'>
-        </p>
-        <div class='source white'>
-          Source: Eric Schmidt
-        </div>
-      </article>
+    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><span class="have">Thats</span> <span class="you">why</span> <span class="noticed">I</span> <span class="its">am</span> <span class="in">here</span></p>
+        <span class="footnote">Thank you</span>
+    </div>
 
-      <article>
-        <h3>
-          This slide has some code
-        </h3>
-        <section>
-        <pre>
-&lt;script type='text/javascript'&gt;
-  // Say hello world until the user starts questioning
-  // the meaningfulness of their existence.
-  function helloWorld(world) {
-    for (var i = 42; --i &gt;= 0;) {
-      alert('Hello ' + String(world));
-    }
-  }
-&lt;/script&gt;
-&lt;style&gt;
-  p { color: pink }
-  b { color: blue }
-  u { color: 'umber' }
-&lt;/style&gt;
-</pre>
-        </section>
-      </article>
-      
-      <article class='smaller'>
-        <h3>
-          This slide has some code (small font)
-        </h3>
-        <section>
-        <pre>
-&lt;script type='text/javascript'&gt;
-  // Say hello world until the user starts questioning
-  // the meaningfulness of their existence.
-  function helloWorld(world) {
-    for (var i = 42; --i &gt;= 0;) {
-      alert('Hello ' + String(world));
-    }
-  }
-&lt;/script&gt;
-&lt;style&gt;
-  p { color: pink }
-  b { color: blue }
-  u { color: 'umber' }
-&lt;/style&gt;
-</pre>
-        </section>
-      </article>
-      
-      <article>
-        <q>
-          The best way to predict the future is to invent it.
-        </q>
-        <div class='author'>
-          Alan Kay
-        </div>
-      </article>
-      
-      <article class='smaller'>
-        <q>
-          A distributed system is one in which the failure of a computer 
-          you didn’t even know existed can render your own computer unusable.
-        </q>
-        <div class='author'>
-          Leslie Lamport
-        </div>
-      </article>
-      
-      <article class='nobackground'>
-        <h3>
-          A slide with an embed + title
-        </h3>
-        
-        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
-      </article>
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
 
-      <article class='nobackground'>
-        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
-      </article>
+</div>
 
-      <article class='fill'>
-        <h3>
-          Full-slide embed with (optional) slide title on top
-        </h3>
-        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
-      </article>
-      
-      <article>
-        <h3>
-          Thank you!
-        </h3>
-        
-        <ul>
-          <li>
-            <a href='http://www.google.com'>google.com</a>
-        </ul>
-      </article>
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
 
-    </section>
 
-  </body>
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+
+</body>
 </html>
+
 
